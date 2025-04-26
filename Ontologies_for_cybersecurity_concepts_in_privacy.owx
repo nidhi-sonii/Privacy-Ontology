@@ -1,0 +1,804 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/id817zfw/ontologies/2025/3/Ontologies_for_cybersecurity_concepts_in_privacy"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/id817zfw/ontologies/2025/3/Ontologies_for_cybersecurity_concepts_in_privacy">
+    <Prefix name="" IRI="http://www.semanticweb.org/id817zfw/ontologies/2025/3/Ontologies_for_cybersecurity_concepts_in_privacy/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This is an ontology in Cybercrime about Concepts in Privacy.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AccessControlMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnonymityMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuthenticationMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BehaviourTrackingMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CyberThreat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataEncryption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataPrivacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocationAnonymizationTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocationData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocationMonitoringTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocationPrivacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetadataProtectionMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkPrivacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalThreat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecureCommunicationProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecurityMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialEngineeringThreat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Threat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserPrivacy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#appliesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enforces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAccessControl"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hidesLocationUsing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCompromisedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMonitoredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProtectedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRegulatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSecuredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preventsMetadataExposure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresAuthentication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#restrictsBehaviorTracking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#securedUsing"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAccuracy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAnonymizationPrecision"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBandwidth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasComplianceStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDataRetentionPeriod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEncryptionStrength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLatency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOptOutStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPolicyReference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPseudonymizationStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRiskLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSensitivityLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUserAnonymityLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tracksBehaviourFrequency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#usesEncryptionProtocol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AES256Encryption"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BrowsingHistory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EndToEndEncryption"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPSLocation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPSMasking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HTTPSProtocol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MedicalRecords"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MultiFactorAuthentication."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PasswordAuthentication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PseudonymizationProcess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SensitiveUserData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SocialMediaProfile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TLS13Encryption"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VPNConnection"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AccessControlMechanism"/>
+        <Class IRI="#SecurityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnonymityMechanism"/>
+        <Class IRI="#SecurityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuthenticationMechanism"/>
+        <Class IRI="#SecurityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BehaviourTrackingMechanism"/>
+        <Class IRI="#SecurityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CyberThreat"/>
+        <Class IRI="#Threat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataEncryption"/>
+        <Class IRI="#SecurityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataPrivacy"/>
+        <Class IRI="#Privacy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocationAnonymizationTool"/>
+        <Class IRI="#SecurityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocationData"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocationMonitoringTool"/>
+        <Class IRI="#SecurityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocationPrivacy"/>
+        <Class IRI="#Privacy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetadataProtectionMechanism"/>
+        <Class IRI="#SecurityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkPrivacy"/>
+        <Class IRI="#Privacy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalThreat"/>
+        <Class IRI="#Threat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecureCommunicationProtocol"/>
+        <Class IRI="#SecurityMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialEngineeringThreat"/>
+        <Class IRI="#Threat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserData"/>
+        <Class IRI="#Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserPrivacy"/>
+        <Class IRI="#Privacy"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#DataEncryption"/>
+        <NamedIndividual IRI="#AES256Encryption"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserPrivacy"/>
+        <NamedIndividual IRI="#BrowsingHistory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DataEncryption"/>
+        <NamedIndividual IRI="#EndToEndEncryption"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LocationPrivacy"/>
+        <NamedIndividual IRI="#GPSLocation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LocationAnonymizationTool"/>
+        <NamedIndividual IRI="#GPSMasking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NetworkPrivacy"/>
+        <NamedIndividual IRI="#HTTPSProtocol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DataPrivacy"/>
+        <NamedIndividual IRI="#MedicalRecords"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AuthenticationMechanism"/>
+        <NamedIndividual IRI="#MultiFactorAuthentication."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AuthenticationMechanism"/>
+        <NamedIndividual IRI="#PasswordAuthentication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnonymityMechanism"/>
+        <NamedIndividual IRI="#PseudonymizationProcess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DataPrivacy"/>
+        <NamedIndividual IRI="#SensitiveUserData"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserPrivacy"/>
+        <NamedIndividual IRI="#SocialMediaProfile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DataEncryption"/>
+        <NamedIndividual IRI="#TLS13Encryption"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NetworkPrivacy"/>
+        <NamedIndividual IRI="#VPNConnection"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSecuredBy"/>
+        <NamedIndividual IRI="#AES256Encryption"/>
+        <NamedIndividual IRI="#AES256Encryption"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSecuredBy"/>
+        <NamedIndividual IRI="#BrowsingHistory"/>
+        <NamedIndividual IRI="#PseudonymizationProcess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSecuredBy"/>
+        <NamedIndividual IRI="#EndToEndEncryption"/>
+        <NamedIndividual IRI="#EndToEndEncryption"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hidesLocationUsing"/>
+        <NamedIndividual IRI="#GPSLocation"/>
+        <NamedIndividual IRI="#GPSMasking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSecuredBy"/>
+        <NamedIndividual IRI="#HTTPSProtocol"/>
+        <NamedIndividual IRI="#TLS13Encryption"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSecuredBy"/>
+        <NamedIndividual IRI="#MedicalRecords"/>
+        <NamedIndividual IRI="#EndToEndEncryption"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSecuredBy"/>
+        <NamedIndividual IRI="#SensitiveUserData"/>
+        <NamedIndividual IRI="#AES256Encryption"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isProtectedBy"/>
+        <NamedIndividual IRI="#SocialMediaProfile"/>
+        <NamedIndividual IRI="#PasswordAuthentication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresAuthentication"/>
+        <NamedIndividual IRI="#VPNConnection"/>
+        <NamedIndividual IRI="#MultiFactorAuthentication."/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEncryptionStrength"/>
+        <NamedIndividual IRI="#AES256Encryption"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">256</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPseudonymizationStatus"/>
+        <NamedIndividual IRI="#BrowsingHistory"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUserAnonymityLevel"/>
+        <NamedIndividual IRI="#BrowsingHistory"/>
+        <Literal>Partial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tracksBehaviourFrequency"/>
+        <NamedIndividual IRI="#BrowsingHistory"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEncryptionStrength"/>
+        <NamedIndividual IRI="#EndToEndEncryption"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">256</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAccuracy"/>
+        <NamedIndividual IRI="#GPSLocation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasAnonymizationPrecision"/>
+        <NamedIndividual IRI="#GPSLocation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOptOutStatus"/>
+        <NamedIndividual IRI="#GPSLocation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasBandwidth"/>
+        <NamedIndividual IRI="#HTTPSProtocol"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLatency"/>
+        <NamedIndividual IRI="#HTTPSProtocol"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#usesEncryptionProtocol"/>
+        <NamedIndividual IRI="#HTTPSProtocol"/>
+        <Literal>TLS 1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDataRetentionPeriod"/>
+        <NamedIndividual IRI="#MedicalRecords"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">730</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEncryptionStrength"/>
+        <NamedIndividual IRI="#MedicalRecords"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">256</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSensitivityLevel"/>
+        <NamedIndividual IRI="#MedicalRecords"/>
+        <Literal>Very High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDataRetentionPeriod"/>
+        <NamedIndividual IRI="#SensitiveUserData"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">365</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEncryptionStrength"/>
+        <NamedIndividual IRI="#SensitiveUserData"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">256</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSensitivityLevel"/>
+        <NamedIndividual IRI="#SensitiveUserData"/>
+        <Literal>High</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPseudonymizationStatus"/>
+        <NamedIndividual IRI="#SocialMediaProfile"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasUserAnonymityLevel"/>
+        <NamedIndividual IRI="#SocialMediaProfile"/>
+        <Literal>Low</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tracksBehaviourFrequency"/>
+        <NamedIndividual IRI="#SocialMediaProfile"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasBandwidth"/>
+        <NamedIndividual IRI="#VPNConnection"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLatency"/>
+        <NamedIndividual IRI="#VPNConnection"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#usesEncryptionProtocol"/>
+        <NamedIndividual IRI="#VPNConnection"/>
+        <Literal>IPSec</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appliesTo"/>
+        <Class IRI="#UserPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enforces"/>
+        <Class IRI="#Privacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAccessControl"/>
+        <Class IRI="#DataPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hidesLocationUsing"/>
+        <Class IRI="#LocationPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCompromisedBy"/>
+        <Class IRI="#Privacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMonitoredBy"/>
+        <Class IRI="#LocationPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProtectedBy"/>
+        <Class IRI="#UserPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRegulatedBy"/>
+        <Class IRI="#DataPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#Privacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSecuredBy"/>
+        <Class IRI="#DataPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preventsMetadataExposure"/>
+        <Class IRI="#NetworkPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresAuthentication"/>
+        <Class IRI="#NetworkPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#restrictsBehaviorTracking"/>
+        <Class IRI="#UserPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#securedUsing"/>
+        <Class IRI="#NetworkPrivacy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appliesTo"/>
+        <Class IRI="#UserData"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enforces"/>
+        <Class IRI="#Regulation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAccessControl"/>
+        <Class IRI="#AccessControlMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hidesLocationUsing"/>
+        <Class IRI="#LocationAnonymizationTool"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCompromisedBy"/>
+        <Class IRI="#Threat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMonitoredBy"/>
+        <Class IRI="#LocationMonitoringTool"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProtectedBy"/>
+        <Class IRI="#AnonymityMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRegulatedBy"/>
+        <Class IRI="#Regulation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#DataPrivacy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#LocationPrivacy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#NetworkPrivacy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#UserPrivacy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSecuredBy"/>
+        <Class IRI="#DataEncryption"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preventsMetadataExposure"/>
+        <Class IRI="#MetadataProtectionMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresAuthentication"/>
+        <Class IRI="#AuthenticationMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#restrictsBehaviorTracking"/>
+        <Class IRI="#BehaviourTrackingMechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#securedUsing"/>
+        <Class IRI="#SecureCommunicationProtocol"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAccuracy"/>
+        <Class IRI="#LocationPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAnonymizationPrecision"/>
+        <Class IRI="#LocationPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasBandwidth"/>
+        <Class IRI="#NetworkPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasComplianceStatus"/>
+        <Class IRI="#Privacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDataRetentionPeriod"/>
+        <Class IRI="#DataPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEncryptionStrength"/>
+        <Class IRI="#DataPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLatency"/>
+        <Class IRI="#NetworkPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasOptOutStatus"/>
+        <Class IRI="#LocationPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPolicyReference"/>
+        <Class IRI="#Privacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPseudonymizationStatus"/>
+        <Class IRI="#UserPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRiskLevel"/>
+        <Class IRI="#Privacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSensitivityLevel"/>
+        <Class IRI="#DataPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUserAnonymityLevel"/>
+        <Class IRI="#UserPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tracksBehaviourFrequency"/>
+        <Class IRI="#UserPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#usesEncryptionProtocol"/>
+        <Class IRI="#NetworkPrivacy"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAccuracy"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAnonymizationPrecision"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasBandwidth"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasComplianceStatus"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDataRetentionPeriod"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEncryptionStrength"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLatency"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasOptOutStatus"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPolicyReference"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPseudonymizationStatus"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRiskLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSensitivityLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUserAnonymityLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tracksBehaviourFrequency"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#usesEncryptionProtocol"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Data</IRI>
+        <Literal>Represents information entities such as user data or location data that require protection.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DataPrivacy</IRI>
+        <Literal>Focuses on safeguarding sensitive or personal data from unauthorized access or use.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HTTPSProtocol</IRI>
+        <Literal>The overarching concept representing the protection of sensitive information and user rights</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LocationPrivacy</IRI>
+        <Literal>Protects geographic and location-based information of individuals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NetworkPrivacy</IRI>
+        <Literal>Ensures the security of communication and metadata within networked systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Privacy</IRI>
+        <Literal>The overarching concept representing the protection of sensitive information and user rights</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Regulation</IRI>
+        <Literal xml:lang="en">Regulation refers to a set of rules or laws governing how privacy and security should be maintained</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SecurityMechanism</IRI>
+        <Literal>Encompasses tools, methods, and technologies used to ensure privacy and security.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Threat</IRI>
+        <Literal>Represents risks or actions that can compromise privacy or security.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UserPrivacy</IRI>
+        <Literal>Centers on protecting user identity, behavior, and activities online</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
